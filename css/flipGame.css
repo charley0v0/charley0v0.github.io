@@ -26,3 +26,7 @@
 #leftArea{
     border-right-color: lightgreen;
 }
+
+#reStart{
+    display: none;
+}

@@ -6,11 +6,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
         <script src="js/flipGame.js"></script>
-        <script>
-            $(function(){
-                $(".card").flip();
-            });
-        </script>
     </head>
     <body>
         <div class="navbar bg-gray-800 w-screen p-4 text-white text-lg font-bold">
@@ -18,7 +13,8 @@
         </div>
         <div class="container mx-auto py-4">
             <div>
-                <button class="my-3 p-3 rounded-sm text-white bg-blue-500" id="start">Game Start</button>
+                <button class="my-3 p-3 rounded-sm text-white bg-blue-500" id="start">Start Game</button>
+                <button class="my-3 p-3 rounded-sm text-white bg-green-500" id="reStart">new Game</button>
             </div>
             <div class="flex justify-between">
                 <div class="card_area border-2 p-5 border-blue-300 w-2/4 flex flex-wrap rounded-tl rounded-bl" id="leftArea"></div>
