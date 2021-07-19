@@ -1,0 +1,23 @@
+#card{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    border:1px solid #dddddd;
+    box-shadow: 1px 1px 1px #eee;
+    font-size: 16px;
+    color: gray;
+}
+
+#card  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front{
+    background-color: lightskyblue;
+}
+
+.back{
+    background-color: lightsalmon;
+}
