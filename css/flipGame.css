@@ -1,4 +1,5 @@
-#card{
+.card{
+    margin: 20px;
     width: 150px;
     height: 200px;
     border-radius: 10px;
@@ -8,7 +9,7 @@
     color: gray;
 }
 
-#card  div{
+.card  div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,4 +21,8 @@
 
 .back{
     background-color: lightsalmon;
+}
+
+#leftArea{
+    border-right-color: lightgreen;
 }
